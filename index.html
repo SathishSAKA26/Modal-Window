@@ -10,7 +10,7 @@
       href="./images/png-transparent-gold.png"
       type="image/x-icon"
     />
-    <title>Static - Boiler Plate</title>
+    <title>Modal Window</title>
     <!-- fontAwesome CDN -->
     <link
       rel="stylesheet"
@@ -26,7 +26,35 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <h1>Hello</h1>
+    <h1 class="title">Modal Window</h1>
+    <!-- Button start -->
+    <div class="buttons">
+      <button class="btn btn-1" id="btn-open">
+        Open Window
+        <i class="fa-solid fa-handshake"></i>
+      </button>
+      <button class="btn btn-2">
+        Open Window
+        <i class="fa-solid fa-car-side"></i>
+      </button>
+      <button class="btn btn-3">
+        Open Window
+        <i class="fa-solid fa-hand-holding-heart"></i>
+      </button>
+    </div>
+
+    <div class="modal close" id="modal">
+      <div class="modal-dis">
+        <p class="modal-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic alias
+          corporis fugit odit in. Alias saepe expedita nobis, in perspiciatis
+          obcaecati laudantium consequuntur beatae distinctio?
+        </p>
+      </div>
+      <button class="btn-close" id="modal-close">Close</button>
+    </div>
+    <!-- end -->
+
     <!-- custom script -->
     <script src="./scripts/script.js"></script>
   </body>

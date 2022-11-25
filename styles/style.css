@@ -26,7 +26,9 @@ html {
 
 body {
   font-family: "Fira Sans Condensed", sans-serif;
-  background-color: var(--clr-white);
+  background-image: url(../images/avenger_warrior_4k_hd_avengers_endgame.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /* global css */
@@ -42,4 +44,93 @@ a {
 
 li {
   list-style: none;
+}
+
+/* Project css */
+.title {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem auto;
+  color: var(--clr-paradise-pink);
+}
+
+.buttons {
+  height: 6rem;
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 0.3rem 0.3rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #eee;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(
+    to right,
+    #f6d365 0%,
+    #fda085 51%,
+    #f6d365 100%
+  );
+}
+
+.btn-2 {
+  background-image: linear-gradient(
+    to right,
+    #fbc2eb 0%,
+    #a6c1ee 51%,
+    #fbc2eb 100%
+  );
+}
+
+.btn-3 {
+  background-image: linear-gradient(
+    to right,
+    #84fab0 0%,
+    #8fd3f4 51%,
+    #84fab0 100%
+  );
+}
+
+.modal {
+  color: var(--clr-white);
+  width: 345px;
+  margin: 2rem 1rem;
+  padding: 2rem;
+  background-color: var(--clr-blue-ncs);
+  border-radius: 1.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.modal-text {
+  font-size: 1.25rem;
+}
+
+.btn-close {
+  font-weight: 600;
+  padding: 0.3rem 0.3rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background-color: var(--clr-paradise-pink);
+  box-shadow: 0 0 20px #eee;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.close {
+  display: none;
 }
